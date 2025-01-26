@@ -20,19 +20,13 @@ const Footer = () => {
               GitHub
             </a>
             <a
-              href="www.linkedin.com/in/karnam-manishankar-17b91126b"
+              href="https://www.linkedin.com/in/karnam-manishankar-17b91126b"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
             >
               LinkedIn
             </a>
-            {/* <a
-              href="mailto:your.email@example.com"
-              className="hover:text-white transition-colors"
-            >
-              Email
-            </a> */}
           </div>
         </div>
       </div>
