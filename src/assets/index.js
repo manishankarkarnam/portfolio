@@ -32,6 +32,7 @@ import tesla from "./company/tesla.png";
 import HospitalPage from "./HospitalPage.png";
 import nitc from "./nitc.png";
 import ecommerce from "./ecommerce.png";
+import NewsAppImage from "./NewsAppImage.png";
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   HospitalPage,
   nitc,
   ecommerce,
+  NewsAppImage,
 };

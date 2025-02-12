@@ -22,6 +22,7 @@ import {
   ecommerce,
   nitc,
   HospitalPage,
+  NewsAppImage,
   threejs,
   expressjs,
   plotlyjs,
@@ -34,7 +35,7 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "projects",  // Changed from "work" to "projects"
     title: "Work",
   },
   {
@@ -271,13 +272,38 @@ const projects = [
         name: "MongoDB",
         color: "blue-text-gradient",
       },
-      {
-        name: "express.js",
-        color: "green-text-gradient",
-      },
+      // {
+      //   name: "express.js",
+      //   color: "green-text-gradient",
+      // },
     ],
     image: ecommerce,
     source_code_link: "https://github.com/manishankarkarnam/E-commerce",
+  },
+  {
+    name: "News App",
+    description:
+      "NewsApp is a full-stack news aggregation platform with a Node.js/Express backend and MongoDB for data storage. It fetches and parses RSS feeds to provide dynamic content. The React frontend, built with Vite and styled using Tailwind CSS, offers smooth animations via Framer Motion and efficient client-side routing with React Router.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: NewsAppImage,
+    source_code_link: "https://github.com/manishankarkarnam/News_App",
   },
 ];
 
